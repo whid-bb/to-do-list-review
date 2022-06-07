@@ -1,6 +1,6 @@
 import * as globals from './globals.js';
 
-class Ls {
+class LocalStorage {
   addToLS = (obj) => {
     localStorage.setItem(globals.LS_KEY, JSON.stringify(obj));
   };
@@ -27,4 +27,4 @@ class Ls {
   };
 }
 
-export default Ls;
+export default LocalStorage;

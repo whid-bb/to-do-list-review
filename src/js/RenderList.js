@@ -1,8 +1,8 @@
 import ListItem from './ListItem.js';
-import Ls from './Ls.js';
+import LocalStorage from './LocalStorage.js';
 import * as globals from './globals.js';
 
-class RenderList extends Ls {
+class RenderList extends LocalStorage {
   list = [];
 
   taskListItem = 'task-list-item';

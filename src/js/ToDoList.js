@@ -1,11 +1,11 @@
 import RenderList from './RenderList.js';
-import Ls from './Ls.js';
+import LocalStorage from './LocalStorage.js';
 import Complete from './Complete.js';
 
 class ToDoList {
   list = [];
 
-  Ls = new Ls();
+  Ls = new LocalStorage();
 
   Complete = new Complete();
 

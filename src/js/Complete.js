@@ -1,9 +1,9 @@
-import Ls from './Ls.js';
+import LocalStorage from './LocalStorage.js';
 import * as globals from './globals.js';
 import RemoveItems from './Remove.js';
 
 class Complete {
-  Ls = new Ls();
+  Ls = new LocalStorage();
 
   RemoveItems = new RemoveItems();
 

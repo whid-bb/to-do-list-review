@@ -1,6 +1,6 @@
-import Ls from './Ls.js';
+import LocalStorage from './LocalStorage.js';
 
-class RemoveItems extends Ls {
+class RemoveItems extends LocalStorage {
   list;
 
   recalculateIndexes = () => {

@@ -1,8 +1,8 @@
-import Ls from './Ls.js';
+import LocalStorage from './LocalStorage.js';
 import Complete from './Complete.js';
 import RemoveItems from './Remove.js';
 
-class ListItem extends Ls {
+class ListItem extends LocalStorage {
   list = [];
 
   Complete = new Complete();
